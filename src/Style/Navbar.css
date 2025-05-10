@@ -59,6 +59,7 @@
 
 .nav-item {
   line-height: 40px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
 .nav-item:after {

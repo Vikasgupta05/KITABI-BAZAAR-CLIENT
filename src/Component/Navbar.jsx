@@ -61,7 +61,19 @@ export const NavBar = () => {
                                 className="nav-links"
                                 onClick={handleClick}
                             >
-                                Contact Us
+                                Sign in
+                            </NavLink>
+                        </li>
+
+                        <li className="nav-item">
+                            <NavLink
+                                exact
+                                to="/Sell-books"
+                                activeClassName="active"
+                                className="nav-links"
+                                onClick={handleClick}
+                            >
+                                Sell Book
                             </NavLink>
                         </li>
                     </ul>
